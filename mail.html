@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>REGISTRATION FORM</title>
+    <style>
+        body {
+                background-image: url("srmpic.jpg");
+        }
+    </style>
+</head>
+<body>
+<marquee><h1>STUDENT REGISTRATION FORM</h1></marquee>
+<hr>
+    </hr>
+    <form action="connect.php" method="post"/>
+    <p>Registration Number:  <input type="text" align="center" name="regno"/></p>
+    <p> First Name: <input type="text" name="fname" /></p>
+    <p> Last Name: <input type="text" name="lname" /></p>
+	<a href="admin.html" style="float: right;">admin</a> 
+    <p> Door no: <input type="text" name="dno" /></p>
+    <p> Address line 1: <input type="text" name="al1" /></p>
+    <p> Address line 2: <input type="text" name="al2" /></p>
+    <p> Address line 3: <input type="text" name="al3" /></p>
+    <p> State: <input type="text" name="state" /></p>
+	<p> Email: <input type="text" name="email" /></p>
+    <p> Pin code: <input type="text" name="pincode" /></p>
+    <label>
+        Country:
+        <input list="countries" name="country" />
+    </label>
+    <datalist id="countries">
+        <option value="India">
+        <option value="German">
+        <option value="Canada">
+        <option value="America">
+        <option value="Singapore">
+        <option value="Malaysia">
+		<option value="Australia">
+		
+            </datalist>
+    <br>
+    <center><input type="submit" value="SUBMIT" /></center>
+    </form>
+<a href="otheractivity.html">please fill other activities</a>
+</body>

@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>other activities</title>
+<style>
+        body {
+                background-image: url("activity.jpg");
+        }
+    </style>
+<head>
+<body>
+<marquee><h1>ACADEMICS REGISTRATION</h1></marquee>
+<hr>
+</hr>
+<form action="otheractivity.php" method="post"/>
+	<p>Registration Number:  <input type="text" align="center" name="regno"/></p>
+    <p>Student current year:  <input type="text" align="center" name="cyear"/></p>
+    <p> year of join: <input type="text" name="jyear" /></p>
+    <p> Course completion year: <input type="text" name="compyear" /></p>
+    <p> Overall CGPA: <input type="text" name="ocgpa" /></p>
+    <p> online course (if any): <input type="text" name="ocourse" /></p>
+    <label>
+        Sports:
+        <input list="sports" name="sport" />
+    </label>
+    <datalist id="sports">
+        <option value="basket ball">
+        <option value="foot ball">
+        <option value="Cricket">
+        <option value="hockey">
+        <option value="kabaddi">
+		<option value="volley ball">
+           </datalist>
+    <br>
+    <center><input type="submit" value="SUBMIT" /></center>
+    </form>
+</body>
+</html>
